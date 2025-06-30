@@ -87,3 +87,62 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>🏋️‍♂️ بطولة Powerlifting</title>
+  <style>
+    body {
+      font-family: Tahoma, sans-serif;
+      direction: rtl;
+      background-color: #f9f9f9;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      color: #333;
+    }
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      margin-top: 40px;
+    }
+    .photo {
+      background-color: white;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+      width: 90%;
+      max-width: 700px;
+    }
+    .photo img {
+      width: 100%;
+      border-radius: 12px;
+    }
+    .caption {
+      margin-top: 15px;
+      font-size: 18px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>بطولة القوة البدنية - Powerlifting</h1>
+  <p>صور من لحظات المنافسة والتتويج</p>
+
+  <div class="gallery">
+    <div class="photo">
+      <img src="images/photo1.png" alt="توزيع الشواهد">
+      <div class="caption">🏅 توزيع الشواهد على المشاركين</div>
+    </div>
+
+    <div class="photo">
+      <img src="images/photo2.png" alt="تمرين Bench Press">
+      <div class="caption">🏋️ لحظة رفع Bench Press وسط التشجيع</div>
+    </div>
+  </div>
+</body>
+</html>
